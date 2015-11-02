@@ -8,6 +8,8 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Backbone = require('backbone');
 
+var Swiper = require('./lib/swiper.js');
+
 var TemplateList = require('./config/template.json');
 var Template = require('./util/template');
 var Url = require('./constants/api.js');
@@ -31,7 +33,11 @@ $(function app() {
 
         ReactDOM.render(
           React.createElement(CardView, {cards: tempCollections}),
-          document.getElementById('app')
+          document.getElementById('app'),
+          function() {
+            $('.swiper-container').width($(window).width()).height($(window).height());
+            new Swiper('.swiper-container');
+          }
         );
       });
     });

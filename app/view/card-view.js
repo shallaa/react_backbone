@@ -8,10 +8,7 @@ var CardView = React.createClass({
     return [this.props.cards];
   },
   render: function() {
-    return (
-      //template.render('card')
-      <div>test. this. is. react</div>
-    );
+    return React.DOM.div(null, template.render('card'));
   }
 });
 

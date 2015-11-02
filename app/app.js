@@ -14,10 +14,7 @@ var Template = require('./util/template');
 var CardView = require('./view/card-view.js');
 
 $(function app() {
-  Q.all(TemplateList.map(function(template) {
-      template.source = Template.load(template.name);
-      return template;
-    }))
+  Q.all(TemplateList.map(function(template) { return Template.load(template.name); }))
     .done(function() {
       var tempCollections = new Backbone.Collection();
 

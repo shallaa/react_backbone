@@ -2,31 +2,38 @@
   "cardList": [
     {
       "title": "첫번째 카드",
-      "description": "첫번째 카드입니다."
+      "description": "첫번째 카드입니다.",
+      "background-color": "#BBDEFB"
     },
     {
       "title": "두번째 카드",
-      "description": "두번째 카드입니다."
+      "description": "두번째 카드입니다.",
+      "background-color": "#90CAF9"
     },
     {
       "title": "세번째 카드",
-      "description": "세번째 카드입니다."
+      "description": "세번째 카드입니다.",
+      "background-color": "#64B5F6"
     },
     {
       "title": "네번째 카드",
-      "description": "네번째 카드입니다."
+      "description": "네번째 카드입니다.",
+      "background-color": "#42A5F5"
     },
     {
       "title": "다섯번째 카드",
-      "description": "다섯번째 카드입니다."
+      "description": "다섯번째 카드입니다.",
+      "background-color": "#2196F3"
     },
     {
       "title": "여섯번째 카드",
-      "description": "여섯번째 카드입니다."
+      "description": "여섯번째 카드입니다.",
+      "background-color": "#1E88E5"
     },
     {
       "title": "일곱번째 카드",
-      "description": "일곱번째 카드입니다."
+      "description": "일곱번째 카드입니다.",
+      "background-color": "#1976D2"
     }
   ]
 }

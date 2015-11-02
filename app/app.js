@@ -35,7 +35,11 @@ $(function app() {
           React.createElement(CardView, {cards: tempCollections}),
           document.getElementById('app'),
           function() {
-            $('.swiper-container').width($(window).width()).height($(window).height());
+            $(window).resize(function() {
+              $('.swiper-container').width($(window).width()).height($(window).height());
+            });
+
+            $(window).resize();
             new Swiper('.swiper-container');
           }
         );
